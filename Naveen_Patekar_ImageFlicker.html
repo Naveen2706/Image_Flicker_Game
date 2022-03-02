@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Image Flicker Game</title>
+  <script type="text/javascript" src="./js/index.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+ </head>
+ <body>
+	 <div id="main_container">
+		<button class ="button" type="button" id="btn1" onclick="elementCreation.block()">Play Game!</button>
+		<div class="outer_container">
+			<div id="game_stats">
+				<h1 id="title"><i>Image Flicker Game</i></h1>
+				<div>
+					<p id="flipcount">Wrong-Flips : <span id="wrgflip">0</span></p>
+					<p>Score : <span id="score">0</span></p>
+					<p>Time-Out : <span id="timeout">30 s</span></p>
+				</div>
+			</div>
+			<button class ="button" id="btn2"type="button"><a href="./Naveen_Patekar_ImageFlicker.html">Start Again!</a></button>
+
+			<div id="game_container">
+				<div id="game_grid">
+				</div>
+			</div>
+			<div id="rules_container">
+				<ol>
+					<li>Click any box after clicking it shows images</li>
+					<li>Then click other box</li>
+					<li>After that if the images are same in both boxes then you score is 10 for match</li>
+					<li>But if they aren't match then your wrongflip is 1.</li>
+					<li>If the two images aren't match you click on third box then previous boxes are hide</li>
+					<li>If your score is greater or equal to 30 then win</li>
+					<li>Only 16 wrongflips allowed after that your game is over.</li>
+				</ol>
+			</div>
+		</div>
+	  </div> 
+ </body>
+</html>

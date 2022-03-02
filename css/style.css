@@ -1,0 +1,15 @@
+body{margin:0;}
+#main_container{width:1540px;background-position: center;height:753px;background-repeat: no-repeat; background-size: cover;margin:0;background-image: url("../images/back10.png");}
+#game_container{height:352px;width:352px;margin: 0 auto;padding: 5px;background-color: #765337;display:none;} 
+#game_grid{margin:0 auto;width:352px;border-radius:10px;}
+#game_stats{margin:0 auto;width:362px;margin-bottom: 20px;border-radius:10px;height:110px;background-color:#c6b206}
+h1{text-align: center;}
+#game_stats p{margin:5px;font-weight: bold;}
+#flipcount{float:right;}
+button{color: #FFFFFF; background-color: #4CAF50;border: none;font-size:20px;border-radius: 4px;cursor:pointer;}
+#btn2{visibility:hidden;margin:0 auto;margin-left: 135px;}
+a{text-decoration:none;cursor: pointer;}
+#btn1{visibility:visible;margin:10px auto;margin-top: 25px;margin-left: 715px;}
+.rules_container{margin: 0 auto;}
+.outer_container{width: 400px;margin: 0 auto;}
+#rules_container ol {color:white;font-size:15px;}
